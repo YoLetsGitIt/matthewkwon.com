@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Blog from './Blog';
 import reportWebVitals from './reportWebVitals';
 // import Amplify from "aws-amplify";
 // import awsExports from "./aws-exports";
