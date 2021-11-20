@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Kwon</title>
+    <link rel="stylesheet" href="./styles/main.css"/>
+</head>
+<body>
+    <nav class="topnav" id="myTopNav">
+        <a href="/" class="active">Home</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/work.html">Work</a>
+        <a href="./pages/blog.html">Blog</a>
+        <a href="./pages/contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <h1>hamburger</h1>
+        </a>
+    </nav>
+    <section class="Home">
+        <div class="section-description">
+          <h2>Hi I'm Matthew</h2>
+          <h1>I'm a problem solver that loves making things</h1>
+          <p>Full stack app and web developer but...</p>
+          <p>software is just a means to get what I think out into the world</p>  
+        </div>
+        <div>
+            <h1>3d animation</h1>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopNav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+</html>
