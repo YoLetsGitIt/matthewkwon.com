@@ -1,4 +1,4 @@
-.Home {
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,14 +8,4 @@
 
 .section-description {
     max-width: 40vw;
-}
-
-Canvas {
-    background-color: grey;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: -1;
 }

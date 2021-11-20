@@ -7,7 +7,6 @@ export const Nav = styled.nav`
   min-height: 10vh;
   display: flex;
   justify-content: space-between;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
   /* Third Nav */
   /* justify-content: flex-start; */

@@ -1,4 +1,4 @@
-.Home {
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,14 +15,4 @@
 .section-description {
   max-width: 40vw;
 }
-
-Canvas {
-  background-color: grey;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
-/*# sourceMappingURL=Home.css.map */
+/*# sourceMappingURL=About.css.map */
